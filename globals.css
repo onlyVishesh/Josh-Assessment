@@ -15,7 +15,7 @@
   --link-letter-spacing: .0125rem;
   --link-line-height: 1.6875rem;
   --link-font-style: normal;
-  --SHADOW: 0rem .8125rem 1.1875rem 0rem rgba(0, 0, 0, 0.07);
+  --SHADOW: 0rem 0rem 4rem 2rem rgba(0, 0, 0, 0.07);
 }
 
 *,
