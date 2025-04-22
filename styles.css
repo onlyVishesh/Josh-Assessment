@@ -186,7 +186,7 @@
   line-height: 5.25rem;
 }
 
-.sub-heading {
+.hero-subtitle {
   position: relative;
 
   width: fit-content;
@@ -327,7 +327,7 @@
 
 /* Features Section */
 
-.desktop-FEATURE {
+.features-section {
   display: flex;
   flex: 0 0 auto;
   flex-direction: column;
@@ -404,7 +404,7 @@
   gap: 3.25rem;
 }
 
-.div-3 {
+.feature-items {
   display: inline-flex;
   flex: 0 0 auto;
   align-items: flex-start;
@@ -818,7 +818,7 @@
   object-fit: cover;
 }
 
-.desktop-light-CTA {
+.newsletter-section {
   display: flex;
   flex: 0 0 auto;
   flex-direction: column;
@@ -924,7 +924,7 @@
   white-space: nowrap;
 }
 
-.desktop-newsletter-wrapper {
+.newsletter-wrapper {
   display: inline-flex;
   flex: 0 0 auto;
   flex-direction: column;
@@ -937,7 +937,7 @@
   gap: 0.8125rem;
 }
 
-.desktop-newsletter {
+.newsletter {
   display: inline-flex;
   flex: 0 0 auto;
   flex-direction: column;
@@ -1043,7 +1043,7 @@
 }
 
 /* Partners */
-.desktop-PARTNER {
+.partners-section {
   display: flex;
   flex: 0 0 auto;
   flex-direction: column;
@@ -1281,7 +1281,7 @@
 
 /* Testimonials */
 
-.desktop-testimonials {
+.testimonials-section {
   display: flex;
   flex: 0 0 auto;
   flex-direction: column;
@@ -1358,7 +1358,7 @@
   line-height: 3.4375rem;
 }
 
-.text-paragraphe {
+.feature-description {
   display: inline-flex;
   flex: 0 0 auto;
   align-items: center;
@@ -1369,7 +1369,7 @@
 
   gap: 0.625rem;
 }
-.text-paragraphe p {
+.feature-description p {
   line-height: 1.2rem;
 }
 
@@ -1576,7 +1576,7 @@
 
 /* Pricing */
 
-.desktop-pricing {
+.pricing-section {
   display: flex;
   flex: 0 0 auto;
   flex-direction: column;
@@ -1949,7 +1949,7 @@
 
 /* Contact */
 
-.desktop-contact {
+.contact-section {
   display: flex;
   flex: 0 0 auto;
   flex-direction: column;
@@ -2395,7 +2395,7 @@
 
   gap: 7.8125rem;
 }
-.desktop-menu-2 {
+.menu-2 {
   display: inline-flex;
   flex: 0 0 auto;
   align-items: center;
@@ -2638,7 +2638,7 @@
 
 /* Footer */
 
-.desktop-footer-dark {
+.footer-section {
   display: flex;
   flex: 0 0 auto;
   flex-direction: column;
@@ -2662,7 +2662,7 @@
   gap: 7.8125rem;
 }
 
-.desktop-menu-2 {
+.menu-2 {
   display: inline-flex;
   flex: 0 0 auto;
   align-items: center;
@@ -2810,7 +2810,7 @@
   cursor: pointer;
 }
 
-.desktop-menu-2 .text-wrapper:hover,
+.menu-2 .text-wrapper:hover,
 .footer-menu-style-2:hover .text-wrapper,
 .footer-menu-style .text-wrapper:hover,
 .footer-menu-style-2 .text-wrapper:hover {
