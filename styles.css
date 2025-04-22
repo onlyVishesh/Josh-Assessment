@@ -87,8 +87,8 @@
 .img {
   position: relative;
 
-  width: 2.5619rem;
-  height: 2.5619rem;
+  width: 2.5rem;
+  height: 2.5rem;
 }
 
 .menu {
@@ -168,7 +168,7 @@
 
   position: relative;
 
-  gap: 0.4375rem;
+  gap: 0.5rem;
 }
 
 .hero-title {
@@ -203,7 +203,7 @@
 
 .try-btn {
   padding: 1rem 3.75rem;
-  border-radius: 2.1875rem;
+  border-radius: 2.2rem;
   background: var(--primary);
 }
 
@@ -318,7 +318,7 @@
 
 .bar {
   width: 100%;
-  height: 0.1875rem;
+  height: 0.2rem;
   border-radius: 0.125rem;
   background-color: var(--light-text);
 
@@ -383,7 +383,6 @@
   width: fit-content;
   margin-top: 1rem;
 
-  font-family: "Open Sans", Helvetica;
   font-size: 1.75rem;
   font-weight: 400;
   text-align: center;
@@ -441,7 +440,6 @@
   width: fit-content;
   margin-top: -0.0625rem;
 
-  font-family: "Open Sans", Helvetica;
   font-size: 1.25rem;
   font-weight: 700;
   text-align: center;
@@ -469,7 +467,6 @@
   width: fit-content;
   margin-top: -0.0625rem;
 
-  font-family: "Open Sans", Helvetica;
   font-size: 1.125rem;
   font-weight: 400;
   text-align: center;
@@ -492,7 +489,6 @@
   width: fit-content;
   margin-top: -0.0625rem;
 
-  font-family: "Open Sans", Helvetica;
   font-size: 1.25rem;
   font-weight: 700;
   text-align: center;
@@ -511,20 +507,20 @@
 
   position: relative;
 
-  width: 66.1369rem;
+  width: 66rem;
   padding: 3.25rem 0rem;
   padding-bottom: 10rem;
 
-  gap: 3.6919rem;
+  gap: 3.7rem;
 }
 
 .video-screen {
   position: relative;
 
-  width: 73.5837rem;
-  height: 41.1437rem;
-  margin-left: -3.7237rem;
-  margin-right: -3.7237rem;
+  width: 73.5rem;
+  height: 41rem;
+  margin-left: -3.7rem;
+  margin-right: -3.7rem;
   border-radius: 0;
   border-radius: 3rem;
 
@@ -629,7 +625,6 @@
 }
 
 .timer {
-  font-family: "Open Sans", Helvetica;
   font-size: 0.875rem;
   color: white;
 
@@ -661,7 +656,7 @@
 
   position: relative;
 
-  padding: 2.6875rem 0rem;
+  padding: 2.7rem 0rem;
 
   gap: 3.125rem;
 }
@@ -704,7 +699,6 @@
   width: fit-content;
   margin-top: -0.0625rem;
 
-  font-family: "Open Sans", Helvetica;
   font-size: 3rem;
   font-weight: 400;
   color: var(--text);
@@ -719,7 +713,6 @@
   width: fit-content;
   margin-top: -0.0625rem;
 
-  font-family: "Open Sans", Helvetica;
   font-size: 1.75rem;
   font-weight: 400;
   color: var(--second-text);
@@ -734,7 +727,6 @@
   width: fit-content;
   margin-top: -0.0625rem;
 
-  font-family: "Open Sans", Helvetica;
   font-size: 1.25rem;
   font-weight: 700;
   color: var(--light-text);
@@ -752,9 +744,9 @@
 
   position: relative;
 
-  padding: 0.4756rem;
+  padding: 0.5rem;
 
-  gap: 0.4756rem;
+  gap: 0.5rem;
 }
 
 .overlap-group-2 {
@@ -783,7 +775,7 @@
 .base {
   position: absolute;
   left: 0;
-  top: 20.5625rem;
+  top: 20.5rem;
 
   width: 39rem;
   height: 0.8125rem;
@@ -914,7 +906,6 @@
   width: fit-content;
   margin-top: -0.0625rem;
 
-  font-family: "Open Sans", Helvetica;
   font-size: 1.25rem;
   font-weight: 700;
   color: var(--text);
@@ -964,7 +955,6 @@
   width: fit-content;
   margin-top: -0.0625rem;
 
-  font-family: "Open Sans", Helvetica;
   font-size: 1.125rem;
   font-weight: 400;
   color: var(--second-text);
@@ -997,7 +987,6 @@
   border-radius: 2.4375rem;
   background-color: #f4f4f4;
 
-  font-family: "Open Sans", Helvetica;
   font-size: 0.875rem;
   font-weight: 400;
   color: var(--background);
@@ -1032,7 +1021,6 @@
   width: fit-content;
   margin-top: -0.0625rem;
 
-  font-family: "Open Sans", Helvetica;
   font-size: 1.25rem;
   font-weight: 700;
   color: var(--light-text);
@@ -1123,7 +1111,6 @@
   width: fit-content;
   margin-top: 1rem;
 
-  font-family: "Open Sans", Helvetica;
   font-size: 1.75rem;
   font-weight: 400;
   text-align: center;
@@ -1155,7 +1142,6 @@
   width: fit-content;
   margin-top: -0.0625rem;
 
-  font-family: "Open Sans", Helvetica;
   font-size: 1rem;
   font-weight: 400;
   color: var(--second-text);
@@ -1306,7 +1292,6 @@
   width: fit-content;
   margin-top: 1rem;
 
-  font-family: "Open Sans", Helvetica;
   font-size: 1.75rem;
   font-weight: 400;
   text-align: center;
@@ -1498,7 +1483,6 @@
   width: fit-content;
   margin-top: -0.0625rem;
 
-  font-family: "Open Sans", Helvetica;
   font-size: 1rem;
   font-weight: 700;
   color: var(--second-text);
@@ -1513,7 +1497,6 @@
   width: fit-content;
   margin-top: -0.0625rem;
 
-  font-family: "Open Sans", Helvetica;
   font-size: 0.9375rem;
   font-weight: 400;
   color: var(--text);
@@ -1732,7 +1715,6 @@
   width: fit-content;
   margin-top: -0.0625rem;
 
-  font-family: "Open Sans", Helvetica;
   font-size: 1rem;
   font-weight: 400;
   text-align: center;
@@ -1781,7 +1763,6 @@
   width: fit-content;
   margin-top: -0.0625rem;
 
-  font-family: "Open Sans", Helvetica;
   font-size: 4.625rem;
   font-weight: 700;
   color: var(--text);
@@ -1849,7 +1830,6 @@
   width: fit-content;
   margin-top: -0.0625rem;
 
-  font-family: "Open Sans", Helvetica;
   font-size: 1rem;
   font-weight: 400;
   text-align: center;
@@ -1865,7 +1845,6 @@
   width: fit-content;
   margin-top: -0.0625rem;
 
-  font-family: "Open Sans", Helvetica;
   font-size: 4.625rem;
   font-weight: 700;
   color: var(--light-text);
@@ -1881,7 +1860,6 @@
   width: fit-content;
   margin-top: -0.0625rem;
 
-  font-family: "Open Sans", Helvetica;
   font-size: 1rem;
   font-weight: 400;
   color: var(--light-text);
@@ -1897,7 +1875,6 @@
   width: fit-content;
   margin-top: -0.0625rem;
 
-  font-family: "Open Sans", Helvetica;
   font-size: 0.9375rem;
   font-weight: 400;
   color: var(--light-text);
@@ -1931,7 +1908,6 @@
   width: fit-content;
   margin-top: -0.0625rem;
 
-  font-family: "Open Sans", Helvetica;
   font-size: 1.25rem;
   font-weight: 700;
   color: var(--primary);
@@ -2013,7 +1989,6 @@
   width: fit-content;
   margin-top: 1rem;
 
-  font-family: "Open Sans", Helvetica;
   font-size: 1.75rem;
   font-weight: 400;
   text-align: center;
@@ -2121,7 +2096,6 @@
   border: none;
   background: transparent;
 
-  font-family: "Roboto", Helvetica;
   font-size: 0.9375rem;
   font-weight: 400;
   color: var(--background);
@@ -2182,7 +2156,6 @@
   width: 100%;
   margin-top: -0.0625rem;
 
-  font-family: "Open Sans", Helvetica;
   font-size: 1.25rem;
   font-weight: 700;
   text-align: center;
@@ -2229,7 +2202,6 @@
   width: fit-content;
   margin-top: -0.0625rem;
 
-  font-family: "Open Sans", Helvetica;
   font-size: 1rem;
   font-weight: 400;
   text-align: center;
@@ -2377,7 +2349,6 @@
   width: fit-content;
   margin-top: -0.0625rem;
 
-  font-family: "Open Sans", Helvetica;
   font-size: 1rem;
   font-weight: 400;
   text-align: center;
