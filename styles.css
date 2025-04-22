@@ -1991,7 +1991,7 @@
   align-items: center;
   position: relative;
   align-self: stretch;
-  gap: 1.5rem;
+  gap: 0rem;
   width: 100%;
   flex: 0 0 auto;
 }
