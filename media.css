@@ -1,0 +1,882 @@
+/* MEDIA QUERIES */
+@media screen and (max-width: 1280px) {
+  .navbar .center {
+    display: inline-flex;
+    align-items: center;
+    padding: 0rem 1.25rem;
+  }
+  .navbar {
+    width: 90%;
+    margin: auto;
+  }
+  .padding-bottom {
+    width: 100%;
+    height: 0rem;
+  }
+  .video-screen {
+    width: 90%;
+    margin: 0 auto;
+    height: auto;
+    aspect-ratio: 16/9;
+    overflow: hidden;
+  }
+
+  .overlap-group {
+    width: 100%;
+    height: 100%;
+    border-radius: 0 !important;
+  }
+
+  .play-button {
+    width: 5rem;
+    height: 5rem;
+  }
+
+  .el-play {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .video-element {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .video-playing .video-element {
+    object-fit: contain !important;
+  }
+
+  .desktop-light-CTA {
+    left: -3rem;
+  }
+  .content-2 {
+    width: 100%;
+    gap: 0rem;
+  }
+  .screen-content-wrapper {
+    width: 45vw;
+  }
+  .screen-content-wrapper img {
+    width: 100%;
+  }
+  .content-wrapper .container {
+    padding-top: 2rem;
+  }
+  .undraw-newsletter-wrapper {
+    align-items: center;
+    width: 100%;
+  }
+  .right-container {
+    padding: 0rem;
+  }
+  .content-3 {
+    padding: 0rem 5rem;
+  }
+
+  .undraw-newsletter {
+    width: 100%;
+    height: 100%;
+  }
+  .undraw-newsletter img {
+    width: 50vw;
+  }
+
+  .desktop-PARTNER {
+    width: 100%;
+  }
+
+  .content-4 {
+    padding: 5rem 2rem;
+  }
+
+  .content-5 {
+    padding: 5rem 2rem;
+  }
+
+  .row-3 {
+    gap: 2rem;
+  }
+
+  .navbar {
+    width: 90%;
+    margin: auto;
+  }
+  .padding-bottom {
+    width: 100%;
+    height: 0rem;
+  }
+
+  .desktop-contact {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .navbar .right,
+  .navbar .menu {
+    display: none;
+  }
+
+  .sidebar-toggle {
+    display: flex;
+  }
+  .logo-large {
+    display: none !important;
+  }
+  .logo-small {
+    display: flex !important;
+  }
+
+  .content-item {
+    gap: 0.625rem;
+    padding: 0.625rem;
+  }
+
+  .text-wrapper {
+    font-size: 0.9375rem;
+    text-align: center;
+    letter-spacing: 0.0125rem;
+    line-height: 1.75rem;
+  }
+  .hero-title {
+    font-size: 4rem;
+    line-height: 4.5rem;
+  }
+
+  .div-3 {
+    gap: 0.25rem;
+  }
+
+  .screen-content {
+    width: 100%;
+    aspect-ratio: 16/9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5rem;
+  }
+
+  .video-screen {
+    width: 90%;
+    margin: 0 auto;
+    height: auto;
+    aspect-ratio: 16/9;
+    overflow: hidden;
+  }
+
+  .overlap-group {
+    width: 100%;
+    height: 100%;
+    border-radius: 0 !important;
+  }
+
+  .video-element {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .video-playing .video-element {
+    object-fit: contain !important;
+  }
+
+  .play-button {
+    width: 5rem;
+    height: 5rem;
+  }
+
+  .el-play {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .desktop-light-CTA {
+    left: -6rem;
+  }
+
+  .content-wrapper {
+    gap: 0.625rem;
+    padding: 2rem 2rem;
+  }
+  .content-wrapper .container {
+    padding-top: 1rem;
+  }
+  .content-2 {
+    flex-direction: column;
+  }
+  .text-wrapper-6,
+  .most-calendars-are-2 {
+    text-align: center;
+  }
+  .text-content-2 {
+    align-items: center;
+    justify-content: center;
+  }
+  .content-2 {
+    width: 100%;
+    gap: 2rem;
+  }
+  .undraw-newsletter {
+    justify-content: end;
+  }
+
+  .screen-content-wrapper img {
+    width: 100%;
+  }
+  .right-container > .text-content-2 {
+    width: 65%;
+    text-align: center;
+  }
+  .undraw-newsletter-wrapper {
+    align-items: center;
+    width: 100%;
+  }
+  .padding-top {
+    height: 0;
+  }
+
+  .undraw-newsletter {
+    width: 100%;
+    height: 100%;
+    display: flex;
+  }
+  .undraw-newsletter img {
+    width: 50%;
+  }
+  .mailing-input {
+    flex-direction: column;
+    width: 100%;
+  }
+  .frame {
+    align-items: center;
+  }
+
+  .text-wrapper-3 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+
+  .content-item .p {
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+  }
+
+  .row,
+  .row-2 {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .desktop-testimonials {
+    width: 100%;
+  }
+
+  .content-5 {
+    gap: 3rem;
+    padding: 3rem 1rem;
+  }
+
+  .testimonial-style {
+    gap: 1.5rem;
+  }
+
+  .testimonial-style-wrapper {
+    width: 300%;
+  }
+
+  .text-content .content-item {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .p {
+    font-size: 1.5rem;
+    width: 100%;
+    max-width: 100%;
+    white-space: normal;
+    word-wrap: break-word;
+  }
+
+  .text-wrapper,
+  .text-wrapper-3,
+  .text-wrapper-12,
+  .text-wrapper-13 {
+    white-space: normal;
+    max-width: 100%;
+    width: 100%;
+    word-wrap: break-word;
+  }
+
+  .text-paragraphe {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .brands {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .row-wrapper {
+    width: 100%;
+    align-items: center;
+  }
+
+  .content-5 {
+    padding: 4rem 1.5rem;
+  }
+
+  .text-wrapper-14 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+    white-space: normal;
+  }
+
+  .most-calendars-are {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .row-3 {
+    width: 80%;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 3rem;
+  }
+
+  .pricing-style,
+  .pricing-style-2 {
+    width: 18rem;
+  }
+
+  .pricing-style-2 {
+    padding: 4rem 2rem;
+  }
+
+  .text-wrapper-16,
+  .text-wrapper-17 {
+    font-size: 4rem;
+    line-height: 4.5rem;
+  }
+
+  .row-3 {
+    flex-direction: column;
+  }
+
+  .desktop-contact {
+    width: 90%;
+    gap: 4rem;
+  }
+
+  .content-7 {
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+  }
+
+  .desktop-footer-dark {
+    padding: 2rem;
+  }
+  .content-7 {
+    flex-direction: row;
+    gap: 3rem;
+    align-items: center;
+  }
+  .desktop-menu-2 {
+    flex-direction: row;
+    gap: 1rem;
+  }
+  .footer-menu-style-2 {
+    width: 8rem;
+    justify-content: center;
+  }
+  .social-media {
+    justify-content: center;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    width: 100%;
+  }
+
+  .navbar .center {
+    width: auto;
+    padding: 0rem;
+  }
+  .logo {
+    width: 14rem;
+  }
+  .container {
+    padding: 0rem;
+  }
+
+  .hero-light {
+    width: 100%;
+    height: 30dvh;
+    padding: 0rem 1rem;
+    gap: 0.5rem;
+  }
+
+  .hero-title {
+    font-size: 2.3rem;
+    line-height: 2.5rem;
+  }
+
+  .sub-heading {
+    font-size: 0.9rem;
+    line-height: 1.1rem;
+  }
+
+  .padding-bottom {
+    width: 100%;
+    height: 7rem;
+  }
+
+  .try-btn {
+    border-radius: 2rem;
+    padding: 1rem 2rem;
+  }
+
+  .try-btn div {
+    font-size: 1.2rem;
+    line-height: 1rem;
+  }
+
+  .div-3 {
+    flex-direction: column;
+  }
+
+  .screen-content {
+    width: 90%;
+    aspect-ratio: 16/9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .video-screen {
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+    aspect-ratio: 16/9;
+    overflow: hidden;
+    border-radius: 2rem;
+  }
+
+  .overlap-group {
+    width: 100%;
+    height: 100%;
+    border-radius: 0 !important;
+    border-radius: 2rem;
+  }
+
+  .video-element {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .video-playing .video-element {
+    object-fit: contain !important;
+  }
+
+  .play-button {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .el-play {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  .desktop-light-CTA {
+    left: 0rem;
+  }
+  .content-2 {
+    width: 100%;
+  }
+  .content-wrapper .container {
+    padding-top: 0rem;
+  }
+
+  .screen-content-wrapper img {
+    width: 100%;
+  }
+  .content-2 {
+    width: 100%;
+  }
+  .screen-content-wrapper img {
+    width: 100%;
+  }
+  .desktop-light-CTA {
+    padding: 2.6875rem 0rem;
+  }
+
+  .content-3 {
+    flex-direction: column-reverse;
+    height: fit-content;
+  }
+  .right-container {
+    padding: 0rem;
+  }
+  .right-container > .text-content-2 {
+    width: 65%;
+    text-align: center;
+  }
+  .undraw-newsletter-wrapper {
+    align-items: center;
+    margin-right: 15%;
+  }
+
+  .undraw-newsletter {
+    width: 100%;
+    display: block;
+  }
+  .undraw-newsletter img {
+    width: 50%;
+  }
+  .content-3 {
+    padding: 0rem 13rem;
+  }
+  .left-container {
+    height: fit-content;
+  }
+  .content-wrapper {
+    padding: 0rem 1rem;
+  }
+  .mailing-input {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .content-4 {
+    gap: 3rem;
+    padding: 3rem 1.5rem;
+  }
+
+  .text-wrapper-3 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+
+  .content-item .p {
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+  }
+
+  .partner-style,
+  .partner-style-2,
+  .partner-style-3,
+  .partner-style-4 {
+    width: calc(50% - 1rem);
+    min-width: 10rem;
+    padding: 1.5rem;
+  }
+
+  .logos-google,
+  .rectangle-2,
+  .rectangle-3,
+  .rectangle-4,
+  .rectangle-5 {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .content-5 {
+    padding: 3rem 1rem;
+    gap: 3rem;
+  }
+
+  .text-wrapper-14 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+
+  .most-calendars-are {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .row-3 {
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .pricing-style,
+  .pricing-style-2 {
+    width: 130%;
+    max-width: 25rem;
+  }
+
+  .pricing-style-2 {
+    padding: 3rem 2rem;
+  }
+
+  .text-wrapper-16,
+  .text-wrapper-17 {
+    font-size: 3.5rem;
+    line-height: 4rem;
+  }
+
+  .input-2,
+  .your-message {
+    padding: 0.75rem 0.875rem;
+    font-size: 0.9375rem;
+  }
+
+  .validation-message {
+    font-size: 0.8125rem;
+  }
+
+  .send-button {
+    padding: 0.75rem 1.25rem;
+    font-size: 0.9375rem;
+  }
+
+  .desktop-contact {
+    width: 100%;
+    padding: 2rem 1rem;
+    gap: 3rem;
+  }
+
+  .content-6 {
+    width: 100%;
+    padding: 2rem 1rem;
+    gap: 2rem;
+  }
+
+  .text-content {
+    width: 100%;
+  }
+
+  .text-content .content-item {
+    width: 100%;
+  }
+
+  .left {
+    width: 100%;
+  }
+
+  .sign-up-form {
+    padding: 2rem 1.5rem;
+  }
+
+  .text-wrapper-3 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    width: 100%;
+    white-space: normal;
+    word-wrap: break-word;
+  }
+
+  .content-item .p {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    width: 100%;
+    white-space: normal;
+    word-wrap: break-word;
+  }
+
+  .text-wrapper-8,
+  .text-wrapper-15,
+  .text-wrapper-21 {
+    width: 100%;
+    white-space: normal;
+    word-wrap: break-word;
+  }
+
+  .input-2,
+  .your-message {
+    white-space: normal;
+  }
+
+  .right-2 {
+    width: 100%;
+    align-items: center;
+  }
+
+  .contact-style {
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    display: flex;
+  }
+
+  .block {
+    width: 100%;
+  }
+
+  .content-7 {
+    width: 100%;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+  }
+
+  .desktop-menu-2 {
+    flex-direction: column;
+  }
+
+  .map-screen {
+    width: 100%;
+    height: 15rem;
+  }
+
+  .send-button {
+    align-self: center;
+  }
+
+  .modal-content {
+    width: 90%;
+    padding: 1.875rem 1.25rem;
+    max-width: 20.625rem;
+  }
+
+  .modal-icon {
+    width: 4.375rem;
+    height: 4.375rem;
+    margin-bottom: 0.9375rem;
+  }
+
+  .modal-icon::before {
+    width: 1.875rem;
+    height: 1rem;
+    top: 1.5625rem;
+    left: 1.25rem;
+  }
+
+  .modal-content h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .modal-content p {
+    font-size: 0.9375rem;
+    margin-bottom: 1.5625rem;
+  }
+
+  .modal-button {
+    padding: 0.75rem 1.75rem;
+    font-size: 0.9375rem;
+  }
+
+  .desktop-footer-dark {
+    padding: 2rem;
+  }
+  .content-7 {
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .desktop-menu-2 {
+    flex-direction: row;
+    gap: 1rem;
+  }
+  .footer-menu-style-2 {
+    width: 8rem;
+    align-items: center;
+  }
+  .list-2 {
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .hero-light {
+    height: 50dvh;
+  }
+
+  .content-4 {
+    gap: 2rem;
+    padding: 2rem 1rem;
+  }
+
+  .text-wrapper-3 {
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+    white-space: normal;
+  }
+
+  .content-item .p {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .partner-style,
+  .partner-style-2,
+  .partner-style-3,
+  .partner-style-4 {
+    width: 100%;
+    padding: 1.25rem;
+  }
+
+  .content-5 {
+    padding: 2.5rem 1rem;
+    gap: 2.5rem;
+  }
+
+  .text-wrapper-14 {
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+  }
+
+  .most-calendars-are {
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+  }
+
+  .pricing-style,
+  .pricing-style-2 {
+    padding: 2rem 1.5rem;
+    gap: 1.5rem;
+  }
+
+  .text-wrapper-16,
+  .text-wrapper-17 {
+    font-size: 3rem;
+    line-height: 3.5rem;
+  }
+
+  .text-wrapper-8 {
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+  }
+
+  .text-wrapper-15,
+  .organize-across-all,
+  .text-wrapper-18 {
+    font-size: 0.95rem;
+    line-height: 1.3rem;
+  }
+
+  .master-button-5,
+  .master-button-6 {
+    padding: 1rem 1.5rem;
+  }
+
+  .text-wrapper-10,
+  .text-wrapper-20 {
+    font-size: 1.125rem;
+  }
+
+  .desktop-menu-2 {
+    flex-direction: column;
+    gap: 3rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+}

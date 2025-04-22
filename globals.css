@@ -11,8 +11,8 @@
   --dark-background: rgba(37, 43, 66, 1);
   --link-font-family: "Roboto", Helvetica;
   --link-font-weight: 400;
-  --link-font-size: .9375rem;
-  --link-letter-spacing: .0125rem;
+  --link-font-size: 0.9375rem;
+  --link-letter-spacing: 0.0125rem;
   --link-line-height: 1.6875rem;
   --link-font-style: normal;
   --SHADOW: 0rem 0rem 4rem 2rem rgba(0, 0, 0, 0.07);
@@ -25,7 +25,11 @@
   margin: 0;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
+}
+
+html {
   scroll-behavior: smooth;
+  scroll-padding-top: 80px;
 }
 
 html,
@@ -68,8 +72,8 @@ textarea {
 }
 
 button:focus-visible {
-  outline: .125rem solid #4a90e2 !important;
-  outline: -webkit-focus-ring-color auto .3125rem !important;
+  outline: 0.125rem solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 0.3125rem !important;
 }
 
 input:focus {
@@ -87,7 +91,94 @@ img {
   user-drag: none;
 }
 
+button,
+.try-btn,
+.master-button-5,
+.master-button-6,
+.text-button-wrapper,
+.send-button,
+.modal-button,
+.sidebar-close,
+.close {
+  cursor: pointer;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--primary);
+}
+
+button:active {
+  transform: scale(0.98);
+}
+input:focus,
+textarea:focus {
+  border-color: var(--primary) !important;
+  box-shadow: 0 0 0 2px rgba(32, 145, 249, 0.2);
+  transition: all 0.3s ease;
+}
+
+button:hover:not(:disabled) {
+  background-color: var(--primary);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes subtle-pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.03);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes loading {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
 
 @media (max-width: 768px) {
   .br {
     display: none;
+  }
+}
