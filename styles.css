@@ -1002,32 +1002,29 @@
   flex: 0 0 auto;
   flex-direction: column;
   align-items: center;
-
+  justify-content: center;
   position: relative;
-
-  padding: 1.1875rem 2.375rem;
-  border-radius: 2.1875rem;
+  padding: 0.5rem 1.5rem;
+  border-radius: 2rem;
   background-color: var(--primary);
-
-  all: unset;
   box-sizing: border-box;
   gap: 0.625rem;
   overflow: hidden;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
 .text-wrapper-10 {
   position: relative;
-
   width: fit-content;
   margin-top: -0.0625rem;
-
   font-size: 1.25rem;
   font-weight: 700;
   color: var(--light-text);
-
   letter-spacing: 0.0125rem;
   line-height: 1.25rem;
   white-space: nowrap;
+  padding: 0.5rem 1rem;
 }
 
 /* Partners */
