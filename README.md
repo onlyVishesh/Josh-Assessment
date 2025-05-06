@@ -153,7 +153,7 @@ This repository contains a **complete implementation** of the Josh Technology Gr
 
 ```bash
 # Clone or download the repository
-git clone [repository-url]
+git clone https://github.com/onlyVishesh/Josh-Assessment
 
 # Navigate to project directory
 cd josh-technology-group-assignment
@@ -204,17 +204,4 @@ This implementation serves as a comprehensive reference for Josh Technology Grou
 5. **Accessibility Matters**: Include ARIA labels and keyboard navigation
 6. **Performance Optimization**: Optimize images and minimize render-blocking resources
 
-## 📞 Contact & Support
-
-- **Developer**: [Your Name]
-- **Email**: [your-email@example.com]
-- **LinkedIn**: [Your LinkedIn Profile]
-- **Portfolio**: [Your Portfolio URL]
-
----
-
 **⭐ If this implementation helped you with your JTG assignment, please star this repository!**
-
-## 🏷️ Tags for Discoverability
-
-`#josh-technology-group` `#frontend-assessment` `#html-css-javascript` `#responsive-design` `#pixel-perfect` `#web-development` `#ui-implementation` `#frontend-interview` `#coding-assessment` `#vanilla-javascript` `#css3-animations` `#mobile-first` `#cross-browser` `#accessibility` `#seo-optimized`
